@@ -1,0 +1,29 @@
+h1{}
+div{
+	margin: 30px 50px;
+}
+.raya{
+	border:solid #000 2px;
+	width: 100px;
+}
+.caja{
+	width: 211px;
+	height: 211px;
+	position:relative;
+	padding: 0;
+}
+.caja img{
+	width:100%;
+	height:auto;
+	display:block;
+	padding: 0;
+	border:0;
+}
+.caja::before{
+	content: attr(title);
+	position:absolute;
+	color:#fff;
+	padding: 5px;
+	right:0;
+	bottom:0;
+}
