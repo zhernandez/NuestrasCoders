@@ -1,10 +1,10 @@
-h1{}
 div{
-	margin: 30px 50px;
+	margin:20px;
+	display: inline-block;
 }
-.raya{
-	border:solid #000 2px;
-	width: 100px;
+hr{
+	width:60px;
+	left:0px;
 }
 .caja{
 	width: 211px;
@@ -26,4 +26,8 @@ div{
 	padding: 5px;
 	right:0;
 	bottom:0;
+}
+.container{
+	width:800px;
+	height:auto; 
 }
